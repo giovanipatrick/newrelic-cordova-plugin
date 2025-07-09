@@ -2,7 +2,10 @@
   "name": "cordova-plugin-newrelic-market4u",
   "version": "7.0.9",
   "description": "New Relic Cordova Plugin for iOS and Android",
-  "repo": "https://github.com/newrelic/newrelic-cordova-plugin/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giovanipatrick/newrelic-cordova-plugin.git"
+  }
   "scripts": {
     "test": "mocha tests/installation",
     "test:android": "cordova-paramedic --cleanUpAfterRun --verbose --platform android --plugin .",
@@ -15,7 +18,19 @@
     "ios",
     "android"
   ],
-  "author": "New Relic",
+    "cordova": {
+    "id": "cordova-plugin-newrelic-market4u",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Giovani Patrick",
+    "email": "giovani.rocha@market4u.com.br",
+    "url": "https://github.com/giovanipatrick"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "cordova-paramedic": "github:apache/cordova-paramedic",
