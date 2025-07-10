@@ -1,4 +1,3 @@
-Plugin Cordova personalizado para integração com o New Relic em aplicativos Cordova, com suporte ao Volt.Build e instalação via npm.
 Este plugin é uma adaptação do New Relic Cordova Plugin, permitindo fácil monitoramento de performance e erros em aplicações híbridas Android e iOS.
 
 ## 🚀 Instalação
