@@ -19,21 +19,27 @@ cordova plugin add cordova-plugin-newrelic-market4u \
 ✅ Compatível com o Volt.Build — funciona tanto com config.xml quanto via instalação CLI.
 
 ## 📲 Plataformas Suportadas
+```
 - Android
 - iOS
+```
 
 ## 🛠 Como funciona
 Este plugin inicializa o New Relic assim que o aplicativo é iniciado. Ele monitora automaticamente:
+```
 - Tempo de carregamento da aplicação
 - Interações com a UI
 - Erros de JavaScript
 - Solicitações de rede
 - Traces customizados (com uso da API New Relic JS)
+```
 
 ## 📦 Requisitos
+```
 - Cordova 10+
 - Android SDK ou Xcode configurados
 - Conta ativa na New Relic
+```
 
 ## 📘 API New Relic JavaScript
 - Você pode usar a API JavaScript da New Relic dentro do seu app, por exemplo:
