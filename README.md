@@ -12,7 +12,7 @@ cordova plugin add cordova-plugin-newrelic-market4u \
   --variable IOS_APP_TOKEN=SEU_IOS_APP_TOKEN \
   --variable ANDROID_APP_TOKEN=SEU_ANDROID_APP_TOKEN
 
-## ✅ Compatível com o Volt.Build — funciona tanto com config.xml quanto via instalação CLI.
+✅ Compatível com o Volt.Build — funciona tanto com config.xml quanto via instalação CLI.
 
 ## 📲 Plataformas Suportadas
 - Android
