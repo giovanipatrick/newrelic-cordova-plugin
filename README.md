@@ -2,15 +2,19 @@ Este plugin é uma adaptação do New Relic Cordova Plugin, permitindo fácil mo
 
 ## 🚀 Instalação
 Adicione o plugin no seu config.xml da seguinte forma:
+```
 <plugin name="cordova-plugin-newrelic-market4u" spec="^7.0.9">
     <variable name="IOS_APP_TOKEN" value="SEU_IOS_APP_TOKEN" />
     <variable name="ANDROID_APP_TOKEN" value="SEU_ANDROID_APP_TOKEN" />
 </plugin>
+```
 
 Ou instale via CLI:
+```
 cordova plugin add cordova-plugin-newrelic-market4u \
   --variable IOS_APP_TOKEN=SEU_IOS_APP_TOKEN \
   --variable ANDROID_APP_TOKEN=SEU_ANDROID_APP_TOKEN
+```
 
 ✅ Compatível com o Volt.Build — funciona tanto com config.xml quanto via instalação CLI.
 
